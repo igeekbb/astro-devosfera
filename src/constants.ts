@@ -25,21 +25,9 @@ export const SOCIALS: Social[] = [
   },
   {
     name: "X",
-    href: "https://x.com/avdyen",
+    href: "https://x.com/geekbb",
     linkTitle: `${SITE.title} en X`,
     icon: IconBrandX,
-  },
-  {
-    name: "LinkedIn",
-    href: "https://www.linkedin.com/in/avdyan/",
-    linkTitle: `${SITE.title} en LinkedIn`,
-    icon: IconLinkedin,
-  },
-  {
-    name: "Mail",
-    href: "mailto:andres04u@gmail.com",
-    linkTitle: `Envia un correo a ${SITE.title}`,
-    icon: IconMail,
   },
 ] as const;
 
@@ -59,7 +47,7 @@ export const SHARE_LINKS: Social[] = [
   {
     name: "X",
     href: "https://x.com/intent/post?url=",
-    linkTitle: `Comparte este post en X`,
+    linkTitle: `Comparte este post en X`，
     icon: IconBrandX,
   },
   {
